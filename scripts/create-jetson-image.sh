@@ -2,6 +2,8 @@
 
 # Author: Badr @pythops
 
+set -e
+
 case "$JETSON_BOARD" in
 jetson-nano-2gb)
     printf "Create image for Jetson nano 2GB board \n"
